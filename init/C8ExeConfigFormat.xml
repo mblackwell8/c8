@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CloudEightConfig>
+
+    <!-- might eventually want some start on round time and other settings? -->
+	
+	<!-- must be an Agent -->
+	<Agent
+		UniqueName=""
+		AccountId=""
+		Float=""
+		MaxAcceptableSpreadPips="">
+		<Security Ticker="" Name="" />
+		<!-- the PropertyName value must be a settable property of type RuntimeType.
+				 RuntimeType must either be a string, or define a public static method Parse(string) -->
+		<CustomSetting PropertyName="" RuntimeType="" Value="" />
+
+		<SignalProvider
+			ClassName="">
+			<CustomSetting PropertyName="" RuntimeType="" Value="" />
+		</SignalProvider>
+		<StopAdjuster
+			ClassName="">
+			<CustomSetting PropertyName="" RuntimeType="" Value="" />
+		</StopAdjuster>
+		<PositionSizer
+			ClassName="">
+			<CustomSetting PropertyName="" RuntimeType="" Value="" />
+		</PositionSizer>
+	</Agent>
+
+</CloudEightConfig>
